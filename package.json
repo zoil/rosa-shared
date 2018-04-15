@@ -1,0 +1,25 @@
+{
+  "name": "rosa-shared",
+  "version": "0.0.1",
+  "description": "Realtime Object Store Adapter - Shared",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist/"],
+  "scripts": {
+    "build": "tsc",
+    "prepublish1": "npm run build",
+    "testa": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoil/rosa-shared.git"
+  },
+  "keywords": [],
+  "author": "Zoltan Jano <zoltan.jano@gmail.com> (https://github.com/zoil)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoil/rosa-shared/issues"
+  },
+  "homepage": "https://github.com/zoil/rosa-shared#readme",
+  "dependencies": {}
+}
